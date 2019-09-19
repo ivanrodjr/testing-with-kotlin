@@ -1,0 +1,4 @@
+rootProject.name = 'testing-with-kotlin'
+include 'test-okhttpclient'
+include 'test-restassured'
+

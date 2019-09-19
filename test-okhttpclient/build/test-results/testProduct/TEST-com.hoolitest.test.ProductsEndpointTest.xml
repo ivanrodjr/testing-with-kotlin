@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hoolitest.test.ProductsEndpointTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-19T02:16:37" hostname="Ivans-MacBook-Pro.local" time="0.546">
+  <properties/>
+  <testcase name="test getting products should send a valid async request" classname="com.hoolitest.test.ProductsEndpointTest" time="0.535"/>
+  <testcase name="test getting products should send a valid sync request" classname="com.hoolitest.test.ProductsEndpointTest" time="0.009"/>
+  <system-out><![CDATA[Categorias del objeto deserializado: 
+
+[Category(createdAt=2016-11-17T17:57:04.285Z, id=abcat0208002, name=Alkaline Batteries, updatedAt=2016-11-17T17:57:04.285Z), Category(createdAt=2016-11-17T17:57:05.399Z, id=pcmcat248700050021, name=Housewares, updatedAt=2016-11-17T17:57:05.399Z), Category(createdAt=2016-11-17T17:57:04.285Z, id=pcmcat303600050001, name=Household Batteries, updatedAt=2016-11-17T17:57:04.285Z), Category(createdAt=2016-11-17T17:57:04.285Z, id=pcmcat312300050015, name=Connected Home & Housewares, updatedAt=2016-11-17T17:57:04.285Z)]
+]]></system-out>
+  <system-err><![CDATA[Sep 18, 2019 10:16:37 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://localhost:8080/products
+Sep 18, 2019 10:16:37 PM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8080] received request: GET /products HTTP/1.1 and responded: HTTP/1.1 200 OK
+Sep 18, 2019 10:16:37 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 OK http://localhost:8080/products (26ms, 18736-byte body)
+Sep 18, 2019 10:16:38 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://localhost:8080/products
+Sep 18, 2019 10:16:38 PM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[8080] received request: GET /products HTTP/1.1 and responded: HTTP/1.1 200 OK
+Sep 18, 2019 10:16:38 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 OK http://localhost:8080/products (1ms, 18736-byte body)
+]]></system-err>
+</testsuite>
