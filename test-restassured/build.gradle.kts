@@ -16,3 +16,13 @@ dependencies {
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
 }
+
+tasks.register<Test>("testapi") {
+
+    group = "verification"
+    description = "Runs set of unit tests against Products Endpoint using mocked responses"
+
+    useTestNG {
+        includeGroups("api")
+    }
+}
